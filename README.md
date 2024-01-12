@@ -26,14 +26,14 @@ To run the MPI version of Floyd's algorithm, use the following command:
 docker run -it mpi_container mpirun -np [number_of_processes] ./floyd_MPI
 ```
 
-# Prime Number Calculation
+## Prime Number Calculation
 To calculate prime numbers using MPI, use this command:
 
 ```bash 
 docker run -it mpi_container mpirun -np [number_of_processes] ./prime_MPI 'number of prime'
 ```
 
-# Logic Operation
+## Logic Operation
 ```bash
 docker run mpi_container mpirun -np [number_of_processes] ./logic_MPI
 ```
